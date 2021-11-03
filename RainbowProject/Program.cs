@@ -75,7 +75,7 @@ namespace RainbowProject
                     string olddata = Console.ReadLine();
                     Console.WriteLine("Please enter new value:");
                     string newdata = Console.ReadLine();
-                    bdata.Replace(olddata, newdata);
+                    bdata=bdata.Replace(olddata, newdata);
                 
                 }
                 fulldata += bdata+"\n";
